@@ -1,0 +1,89 @@
+
+h2 {
+  color : white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body{
+  background-image: url(images/stars-g189651612_1920.jpg);
+  text-align: center;
+
+}
+
+p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+  color: #1D1128;
+  font-weight: 10;
+  text-decoration: none;
+}
+i{
+  color:grey;
+  margin: 10px;
+  width: 10px;
+  }
+.card_blue img {
+  height: auto;
+    width: 100 px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: #5E5D5C 1px solid;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card_blue {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card_blue {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card_blue {
+    width: 300px;
+  }
+}
+.card_blue {
+  color : white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card_blue {
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  background-position: center;
+  background-color: #4C5C68;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 255, .2);
+  width: 808px;
+  margin: 50px auto;
+  opacity: 0.75;
+}
+
+
+.button {
+  color: white;
+  padding: 2px 24px;
+  margin: 55px;
+  border-radius: 15px;
+  background: rgba(0, 0, 255, .2);
+}
+
+.button:hover {
+  background: #EBF2FA;
+  color: white;
+}
+
+.i{
+  margin: 10px;
+  width: 10px;
+}
+
+.gifs {
+  border-radius: 70%;
+}
